@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maragondon National High School</title>
+        <link rel="stylesheet" href="about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> 
+        <link rel="icon" type="image/png" href="img/MNHS LOGO.png">
+    </head>
+    <body>
+
+        <script>
+            function expandImage(image) {
+  var overlay = document.getElementById("overlay");
+  var expandedImage = document.getElementById("expandedImage");
+
+  overlay.style.display = "block";
+  expandedImage.src = image.src;
+  document.body.classList.add("expanded");
+}
+
+function shrinkImage() {
+  var overlay = document.getElementById("overlay");
+
+  overlay.style.display = "none";
+  document.body.classList.remove("expanded");
+}
+        </script>
+
+        <div class="box-area">
+            <header>
+                <img class="header-logo" src="img/deped.png">
+                <img class="header-logo2" src="img/MNHS LOGO.png">
+                <nav>
+                    <div class="nav-link">
+                        <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="about.html">ABOUT</a></li>
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav> 
+            </header>
+        </div>
+
+        <div class="wrapper">
+            <h1>THE MNHS CHRONICLES 2022</h1>
+                <div class="aureal3">
+                        <sectionss class="slideshow">
+                          <div class="content">
+                            <div class="slider-content">
+                                <figure class="shadow"><img src="img/1.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/2.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/3.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/4.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/5.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/6.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/7.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/8.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/9.jpg" onclick="expandImage(this)"></figure>
+                                <figure class="shadow"><img src="img/10.jpg" onclick="expandImage(this)"></figure>
+                            </div>
+                          </div>
+                        </section>   
+                </div>  
+        </div>
+        <div id="overlay" onclick="shrinkImage()">
+            <img id="expandedImage" src="" alt="Expanded Image">
+        </div>
+<br><br><br><br><br>
+            <div class="wrapper">
+                <h1>MAP OF MARAGONDON NATIONAL HIGH SCHOOL\</h1>
+                <div class="aureal">
+                    <div class="map">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.237407780484!2d120.73210677366416!3d14.275743686172998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd87ca24000001%3A0x83bf7985169dcf66!2sMaragondon%20National%20High%20School!5e1!3m2!1sen!2sph!4v1688974712620!5m2!1sen!2sph" width="500" height="400" style="border-radius: 5%;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                        </div>
+                    <div class="box">
+                        <h2></h2>
+                        <p>
+                            Maragondon National High School is a school in Cavite located on Balitao. Maragondon National High School is situated nearby to Maragondon Police Station and the university PUP - Maragondon Branch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="wrapper2">
+                <h1>OUR MISSION AND VISION</h1>
+                
+                <div class="aureal2">
+                    <div class="box2">
+                        <img class="mislogo" src="img/mission.jpg" alt="aureal2">
+                        <h2>MISSION</h2>
+                        <p>
+                            To protect and promote the right of every Filipino to quality, equitable, culture-based and complete basic education where:
+                            <p>• Students learn in a child-friendly, gender-sensitive, safe and motivating environment.</p>
+                            <p>• Teachers facilitate learning and constantly nurture every learner.</p>
+                            <p>• Administrators and staff, as stewards of the institution ensure an enabling and supportive environment for effective learning to happen.</p>
+                            <p>• Family, community and other stakeholders are actively engaged and share responsibility for developing life-long learners.</p>
+                        </p>
+                    </div>
+                    <div class="box2">
+                        <img class="mislogo" src="img/vision.jpg" alt="aureal2">
+                        <h2>VISION</h2>
+                        <p style="font-size: 25px;">
+                            We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation.
+                        <p style="font-size: 25px;">As a learner-centered public institution, the Department of Education
+                            continuously improves itself to better serve its stakeholders.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper2">
+                <h1> ORGANIZATIONAL CHART </h1>
+                <div class="aureal2">
+                 <div class="center-chart">
+                        <img src="organizational charts/Chart 1.png" class="chart-bug">
+                        <img src="organizational charts/Chart 2 (5).png" class="bug-chart">
+                    </div>
+                </div>
+               
+            </div>
+            
+
+
+    <div class="footer-logo">
+        <center><a href="#top"> <img class="logo" src="img/deped.png"></a></center>
+    </div>
+
+    <div class="footer-box" id="contact">
+        <footer>
+            <h3>Contact Us</h3>
+            <div class="icons">
+            <ul>
+                <li>
+                    <a href="mailto:depedcavite.maragondonnhs@gmail.com" target="_blank">
+                        <img src="img/ICONS/icon-gmail.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/DedEdTayoMNHS301204" target="_blank">
+                        <img src="img/ICONS/icon-fb.png">
+                    </a>
+                </li>
+                <li>
+                    <img src="img/ICONS/icons8-phone-50.png"> <b class="number">Tel No: (046) 412-0668</b> <b class="address">Address: Garita-A, Maragondon, Philippines</b>
+                </li>
+            </ul>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
